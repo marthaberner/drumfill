@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav.navbar.navbar-default
+      div.container-fluid
+        div.navbar-header
+          h1
+            a
+              span.glyphicon.glyphicon-cd(href='#') 
+              p #{title}
+    block content

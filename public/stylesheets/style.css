@@ -1,0 +1,21 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar-header a {
+  color: #336699;
+}
+
+.navbar-header p {
+  display: inline;
+  margin-left: .5em;
+}
+
+.navbar-header a:hover {
+  text-decoration: none;
+  color: black;
+}
